@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 
 //Route prefixes
 app.use('/auth', require('./routes/auth.js'))
+app.use('/board', require('./routes/board.js'))
 
 const port = 8800
 
